@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha Restaurent</title>
+    <style>
+        body{
+            color:white;
+            margin:0px;
+            padding:0px;
+            background-color: darkslateblue;
+            background:url(https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?cs=srgb&dl=pexels-pixabay-260922.jpg&fm=jpg);
+            width:2000px;
+            height:20px;
+            
+        }
+        .left{
+            display:inline-block;
+            position:absolute; 
+            left: 60px;
+            top:20px;
+            
+            
+
+        }
+        .left div{
+            text-align: center;
+            font-size: 26px;
+            line-height: 19px;
+        }
+        .left img{
+            width:136px;
+        }
+       
+
+        
+        .mid{
+            display:block;
+            width:36%;
+        margin:29px  auto;
+            
+            font-family: bold;
+            
+
+        }
+        .right{
+            display:inline-block;
+            position:absolute;
+            right:34px;
+            top:43px;
+            
+            
+
+        }
+        .navbar  {
+            display: inline-block;
+            
+
+        }
+        .navbar li{
+            display:inline-block;
+            font-size:25px;
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding:34px 23 px;
+            margin:6px;
+
+        }
+        .navbar li a:hover ,.navbar li a.active{
+            text-decoration: underline;
+            color:black;
+        }
+        .btn{
+            margin:0px 9px;
+            background-color:black;
+            color: white;
+            padding:4px 14px;
+            border-radius: 14px;
+            font-size: 20px;
+            cursor:pointer;
+        }
+        .btn:hover,.btn:active{
+            background-color: rgb(197, 22, 22);
+        }
+        .container{
+            border:2px solid red;
+            margin: 0px 9px;
+            background: black;
+            top:300px;
+
+            color: white;
+            padding :4px 14px;
+            border: 2px solid grey;
+            font-size: 20px;
+            width:48%;
+            border-radius: 10px;
+            cursor: pointer;
+            position: absolute;
+
+            
+
+        }
+        .form-group input{
+            text-align:center;
+            display: block;
+            width:508px;
+            padding:1px;
+            border:2px solid black;
+            font-size: 25px;
+            border-radius: 8px;
+            margin: 11px auto;
+            
+        }
+        .container h1{
+            text-align: center;
+        }
+    .container button{
+            display: block;
+            width:74%;
+            margin:20px auto;
+
+
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+    <div class="left">
+        
+        
+
+        <img src="https://tse2.mm.bing.net/th?id=OIP.kvNVSfVV-hw6euuuHeVgoQHaH2&pid=Api&P=0" alt="">
+        <div>Diksha Restaurent</div>
+
+    </div>
+    <div class="mid">
+         <ul class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        
+
+    </div>
+    <div class="right" >
+<button class="btn" class="active"> Call us Now </button>
+<button class="btn" class="active">Email us</button>
+    </div>
+    </header>
+    <div class="container">
+       <h1> Healty,Tasty and Yummy food</h1>
+       <form action="noaction.php">
+        <div  class="form-group">
+            <input type="text"  name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+                <input type="text" name="" placeholder="Enter your order">
+
+            </div>
+            <div class="form-group">
+                <input type="text"  name="" placeholder="Enter your Phone No." >
+
+        
+            </div>
+            <button class="btn">Submit Now</button>
+            <button class="btn">Reset</button>
+
+
+
+       </form>
+
+
+    </div>
+
+    
+</body>
+</html>
